@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">ReAct Evaluation and Reflection Flow</title>
+  <desc id="desc">Reasoning leads to Action, then Evaluation, then Reflection. Reflection judges goal completion, reflects on unfinished or failed execution, checks whether more goals remain, and routes the flow back to Reasoning, back to Action, or to End.</desc>
+
+  <rect x="0" y="0" width="1100" height="760" rx="28" fill="#f8fafc" />
+
+  <rect x="390" y="30" width="320" height="88" rx="16" fill="#2563eb" />
+  <rect x="394" y="34" width="312" height="80" rx="13" fill="#ffffff" />
+  <text x="550" y="68" font-family="Noto Sans CJK SC" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">Reasoning</text>
+  <text x="550" y="98" font-family="Noto Sans CJK SC" font-size="20" fill="#334155" text-anchor="middle">推理 / 调整规划</text>
+
+  <rect x="390" y="155" width="320" height="88" rx="16" fill="#0f766e" />
+  <rect x="394" y="159" width="312" height="80" rx="13" fill="#ffffff" />
+  <text x="550" y="193" font-family="Noto Sans CJK SC" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">Action</text>
+  <text x="550" y="223" font-family="Noto Sans CJK SC" font-size="20" fill="#334155" text-anchor="middle">执行当前步骤</text>
+
+  <rect x="390" y="280" width="320" height="92" rx="16" fill="#d97706" />
+  <rect x="394" y="284" width="312" height="84" rx="13" fill="#ffffff" />
+  <text x="550" y="318" font-family="Noto Sans CJK SC" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">Evaluation</text>
+  <text x="550" y="348" font-family="Noto Sans CJK SC" font-size="20" fill="#334155" text-anchor="middle">收集执行结果，评估执行情况</text>
+
+  <rect x="230" y="430" width="640" height="194" rx="22" fill="#7c3aed" />
+  <rect x="236" y="436" width="628" height="182" rx="18" fill="#faf5ff" />
+  <text x="550" y="472" font-family="Noto Sans CJK SC" font-size="30" font-weight="700" fill="#4c1d95" text-anchor="middle">Reflection 反思 / 判断</text>
+  <rect x="270" y="492" width="560" height="34" rx="8" fill="#ffffff" />
+  <text x="550" y="515" font-family="Noto Sans CJK SC" font-size="18" fill="#1f2937" text-anchor="middle">判断当前目标是否完成</text>
+  <rect x="270" y="532" width="560" height="34" rx="8" fill="#ffffff" />
+  <text x="550" y="555" font-family="Noto Sans CJK SC" font-size="18" fill="#1f2937" text-anchor="middle">执行出错或未完成：反思未完成原因</text>
+  <rect x="270" y="572" width="560" height="34" rx="8" fill="#ffffff" />
+  <text x="550" y="595" font-family="Noto Sans CJK SC" font-size="18" fill="#1f2937" text-anchor="middle">执行正常且目标完成：判断是否还有后续目标</text>
+
+  <rect x="450" y="668" width="200" height="62" rx="14" fill="#475569" />
+  <rect x="454" y="672" width="192" height="54" rx="11" fill="#ffffff" />
+  <text x="550" y="708" font-family="Noto Sans CJK SC" font-size="26" font-weight="700" fill="#0f172a" text-anchor="middle">End 结束</text>
+
+  <rect x="546" y="118" width="8" height="25" fill="#334155" />
+  <polygon points="550 155 536 141 564 141" fill="#334155" />
+  <rect x="546" y="243" width="8" height="25" fill="#334155" />
+  <polygon points="550 280 536 266 564 266" fill="#334155" />
+  <rect x="546" y="372" width="8" height="46" fill="#334155" />
+  <polygon points="550 430 536 416 564 416" fill="#334155" />
+
+  <rect x="150" y="514" width="80" height="8" fill="#64748b" />
+  <rect x="150" y="74" width="8" height="448" fill="#64748b" />
+  <rect x="158" y="70" width="218" height="8" fill="#64748b" />
+  <polygon points="390 74 376 62 376 86" fill="#64748b" />
+  <text x="150" y="550" font-family="Noto Sans CJK SC" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">出错 / 未完成</text>
+  <text x="150" y="575" font-family="Noto Sans CJK SC" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">回到 Reasoning</text>
+
+  <rect x="870" y="514" width="80" height="8" fill="#334155" />
+  <rect x="946" y="199" width="8" height="323" fill="#334155" />
+  <rect x="710" y="195" width="236" height="8" fill="#334155" />
+  <polygon points="710 199 724 187 724 211" fill="#334155" />
+  <text x="950" y="548" font-family="Noto Sans CJK SC" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">完成且有后续目标</text>
+  <text x="950" y="573" font-family="Noto Sans CJK SC" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">回到 Action</text>
+
+  <rect x="546" y="624" width="8" height="32" fill="#334155" />
+  <polygon points="550 668 536 654 564 654" fill="#334155" />
+  <text x="640" y="638" font-family="Noto Sans CJK SC" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">完成且无后续目标</text>
+</svg>
